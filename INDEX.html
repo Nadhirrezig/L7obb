@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleindex.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">NadhirRezig</div>
+        <nav>
+            <a href="#info">About</a>
+            <a href="#cards">Competitions</a>
+            <a href="#slideshow-img">Portfolio</a>
+            <a href="#formule">Contact</a>
+        </nav>
+    </header>
+    <section class="info" id="info">
+        <h2>About me</h2>
+        <div class="container">
+            <figure>
+                <img src="lhob.jpg" alt="taswirit il hob">
+                <figcaption>Nadhir Rezig, Founder Of ProjectX</figcaption>
+            </figure>
+            <article>
+                <p>
+                    Good afternoon, My name is <strong>Nadhir Rezig</strong>, and i am obsessed with making money 
+                </p>
+                <p>
+                    i know it is too early for making billions but im already making millions..
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="cards" id="cards">
+        <article class="card1">
+            <h1>there is no limit to what we can achieve.</h1>
+            <h3>--Making My First Million---</h3>
+            <p>The end of 2020</p>
+            <p>It was hard for even someone like me , was'nt that much creative but i did worked myself off till i made it </p>
+            <button>Read More..</button>
+        </article>
+        <article class="card2">
+            <h1>My leadership.</h1>
+            <h3>--Successfull leader---</h3>
+            <p>2023</p>
+            <p>I take pride in creating a positive and productive work environment, where each team member feels valued and empowered to contribute their ideas, ultimately driving the success of the project.</p>
+            <button>Read More..</button>
+        </article>
+    </section>
+    <section class="competitions" id="competitions">
+        <h2>Competitions & Certifications</h2>
+        <div class="certifications-list">
+            <div class="certification-card">
+                <h3>JavaScript Certification</h3>
+                <p>Completed: 2021</p>
+                <p>Proficiency in modern JavaScript (ES6+), web development, and advanced topics like closures and async operations.</p>
+                <a href="#">View Certification</a>
+            </div>
+            <div class="certification-card">
+                <h3>Node.js Certification</h3>
+                <p>Completed: 2023</p>
+                <p>Mastered server-side JavaScript with Node.js, Express, and building REST APIs.</p>
+                <br>
+                <a href="#">View Certification</a>
+            </div>
+            <div class="certification-card">
+                <h3>Python Certification</h3>
+                <p>Completed: 2022</p>
+                <p>Proficient in Python for web scraping, data analysis, and automation scripts.</p>
+                <br>
+                <a href="#">View Certification</a>
+            </div>
+            <div class="certification-card">
+                <h3>React Certification</h3>
+                <p>Completed: 2024</p>
+                <p>Advanced knowledge of React for building dynamic web applications with hooks and context.</p>
+                <a href="#">View Certification</a>
+            </div>
+        </div>
+    </section>
+    <section class="slideshow-img" id="slideshow-img">
+        <div class="mySlides fade image-container "  style="display: block;" name="Images">
+            <img src="icon1.webp" style="width: 100%;" class="image">
+            <button class="hover-button">Click Me!</button>
+            <p class="text">First Projext</p>
+        </div>
+       <div>
+        <div class="mySlides fade image-container" name="Images" >
+            <img src="icon2.png" style="width: 100%;" class="image">
+            <button class="hover-button">Click Me!</button>
+            <p class="text">Second Projext</p>
+        </div>
+
+       <div>
+        <div class="mySlides fade image-container" name="Images" >
+            <img src="icon3.jpg" style="width: 100%;" class="image">
+            <button class="hover-button">Click Me!</button>
+            <p class="text">Third Project</p>
+        </div>
+        <button class="prev" onclick="plusSlides(-1)">&#10096;</button>
+        <button class="next" onclick="plusSlides(1)"">&#10097;</button>
+        <br>
+        <div style="text-align: center;">
+            <span class="dot" id="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" id="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" id="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+    <section class="formule" id="formule">
+        <h2>Formulair de contact</h2>
+        <form method="post">
+            <label for="name">name</label>
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="subject">subject</label>
+            <input type="text">
+            <label for="message">Message</label>
+            <textarea aria-controls="none"></textarea>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+    <footer>
+        <a href="#top" class="top">Back to Top</a>
+        <div class="copyright">
+            &copy; By Nadhir Rezig. All rights reserved.
+        </div>
+</footer>
+</body>
+<script src="main.js"></script>
+</html>
